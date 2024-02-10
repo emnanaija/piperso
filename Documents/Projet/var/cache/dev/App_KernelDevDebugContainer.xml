@@ -371,11 +371,11 @@
         <argument type="service" id=".service_locator.jUv.zyj.App\Controller\LoginController"/>
       </call>
     </service>
-    <service id="App\Controller\MainController" class="App\Controller\MainController" public="true" autowire="true" autoconfigure="true">
+    <service id="App\Controller\MainAdminController" class="App\Controller\MainAdminController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
-        <argument type="service" id=".service_locator.jUv.zyj.App\Controller\MainController"/>
+        <argument type="service" id=".service_locator.jUv.zyj.App\Controller\MainAdminController"/>
       </call>
     </service>
     <service id="App\Controller\RegisterController" class="App\Controller\RegisterController" public="true" autowire="true" autoconfigure="true">
@@ -383,6 +383,13 @@
       <tag name="container.service_subscriber"/>
       <call method="setContainer">
         <argument type="service" id=".service_locator.jUv.zyj.App\Controller\RegisterController"/>
+      </call>
+    </service>
+    <service id="App\Controller\mainClientController" class="App\Controller\mainClientController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.jUv.zyj.App\Controller\mainClientController"/>
       </call>
     </service>
     <service id="argument_metadata_factory" class="Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory"/>
@@ -6925,12 +6932,15 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\LoginController" class="App\Controller\LoginController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\LoginController" class="App\Controller\LoginController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\LoginController" class="App\Controller\LoginController" autowire="true" autoconfigure="true" abstract="true"/>
-    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\MainController" class="App\Controller\MainController" autowire="true" abstract="true"/>
-    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\MainController" class="App\Controller\MainController" autowire="true" abstract="true"/>
-    <service id=".abstract.instanceof.App\Controller\MainController" class="App\Controller\MainController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\MainAdminController" class="App\Controller\MainAdminController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\MainAdminController" class="App\Controller\MainAdminController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\MainAdminController" class="App\Controller\MainAdminController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\RegisterController" class="App\Controller\RegisterController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\RegisterController" class="App\Controller\RegisterController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\RegisterController" class="App\Controller\RegisterController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\mainClientController" class="App\Controller\mainClientController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\mainClientController" class="App\Controller\mainClientController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\mainClientController" class="App\Controller\mainClientController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".service_locator.bJ.4HC5" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -7939,15 +7949,21 @@
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.jUv.zyj" method="withContext"/>
     </service>
-    <service id=".service_locator.jUv.zyj.App\Controller\MainController" class="Symfony\Component\DependencyInjection\ServiceLocator">
-      <tag name="container.service_locator_context" id="App\Controller\MainController"/>
-      <argument>App\Controller\MainController</argument>
+    <service id=".service_locator.jUv.zyj.App\Controller\MainAdminController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator_context" id="App\Controller\MainAdminController"/>
+      <argument>App\Controller\MainAdminController</argument>
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.jUv.zyj" method="withContext"/>
     </service>
     <service id=".service_locator.jUv.zyj.App\Controller\RegisterController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\RegisterController"/>
       <argument>App\Controller\RegisterController</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.jUv.zyj" method="withContext"/>
+    </service>
+    <service id=".service_locator.jUv.zyj.App\Controller\mainClientController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator_context" id="App\Controller\mainClientController"/>
+      <argument>App\Controller\mainClientController</argument>
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.jUv.zyj" method="withContext"/>
     </service>

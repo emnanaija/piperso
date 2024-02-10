@@ -17,8 +17,9 @@ return [
         '/compteepargne' => [[['_route' => 'app_compteepargne', '_controller' => 'App\\Controller\\CompteepargneController::index'], null, null, null, false, false, null]],
         '/home' => [[['_route' => 'app_home', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
         '/login' => [[['_route' => 'app_login', '_controller' => 'App\\Controller\\LoginController::index'], null, null, null, false, false, null]],
-        '/main' => [[['_route' => 'app_main', '_controller' => 'App\\Controller\\MainController::index'], null, null, null, false, false, null]],
+        '/mainAdmin' => [[['_route' => 'app_mainAdmin', '_controller' => 'App\\Controller\\MainAdminController::index'], null, null, null, false, false, null]],
         '/register' => [[['_route' => 'app_register', '_controller' => 'App\\Controller\\RegisterController::index'], null, null, null, false, false, null]],
+        '/mainClient' => [[['_route' => 'app_mainClient', '_controller' => 'App\\Controller\\mainClientController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

@@ -50,7 +50,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 \t\t<meta charset=\"utf-8\">
 \t\t<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">
 
-\t\t<title>Dashboard - your dashboard</title>
+\t\t<title>Dashboard  Admin</title>
 \t\t<meta content=\"\" name=\"description\">
 \t\t<meta
 \t\tcontent=\"\" name=\"keywords\">
@@ -124,7 +124,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/img/bank.png"), "html", null, true);
         echo "\" alt=\"\">
 \t\t\t\t\t<span class=\"d-none d-lg-block\">
-\t\t\t\t\t\tE-bank  Dashboard</span>
+\t\t\t\t\t\tE-bank   Dashboard</span>
 \t\t\t\t</a>
 \t\t\t\t<i class=\"bi bi-list toggle-sidebar-btn\"></i>
 \t\t\t</div>
@@ -371,7 +371,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_main");
         echo "\">
 \t\t\t\t<i class=\"bi bi-grid\"></i>
-\t\t\t\t<span>Dashboard</span>
+\t\t\t\t<span> Admin Dashboard</span>
 \t\t\t</a>
 \t\t</li>
 \t\t<!-- End Dashboard Nav -->
@@ -460,45 +460,45 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 ";
         // line 369
         $this->displayBlock('main', $context, $blocks);
-        // line 651
+        // line 644
         echo "
 
 \t<script src=\"";
-        // line 653
+        // line 646
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/apexcharts/apexcharts.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 654
+        // line 647
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/bootstrap/js/bootstrap.bundle.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 655
+        // line 648
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/chart.js/chart.umd.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 656
+        // line 649
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/echarts/echarts.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 657
+        // line 650
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/quill/quill.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 658
+        // line 651
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/simple-datatables/simple-datatables.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 659
+        // line 652
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/tinymce/tinymce.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 660
+        // line 653
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/php-email-form/validate.js"), "html", null, true);
         echo "\"></script>
 
 \t<!-- Template Main JS File -->
 \t<script src=\"";
-        // line 663
+        // line 656
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/js/main.js"), "html", null, true);
         echo "\"></script>
 
@@ -545,15 +545,8 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 \t<main id=\"main\" class=\"main\">
 
 \t\t<div class=\"pagetitle\">
-\t\t\t<h1>Dashboard</h1>
-\t\t\t<nav>
-\t\t\t\t<ol class=\"breadcrumb\">
-\t\t\t\t\t<li class=\"breadcrumb-item\">
-\t\t\t\t\t\t<a href=\"index.html\">Home</a>
-\t\t\t\t\t</li>
-\t\t\t\t\t<li class=\"breadcrumb-item active\">Dashboard</li>
-\t\t\t\t</ol>
-\t\t\t</nav>
+\t\t\t<h1> Admin  Dashboard</h1>
+\t\t\t
 \t\t</div>
 \t\t<!-- End Page Title -->
 
@@ -851,7 +844,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  544 => 370,  534 => 369,  516 => 35,  502 => 663,  496 => 660,  492 => 659,  488 => 658,  484 => 657,  480 => 656,  476 => 655,  472 => 654,  468 => 653,  464 => 651,  462 => 369,  397 => 307,  371 => 284,  346 => 262,  307 => 226,  124 => 46,  112 => 36,  108 => 35,  102 => 32,  97 => 30,  93 => 29,  89 => 28,  85 => 27,  81 => 26,  77 => 25,  66 => 17,  61 => 15,  45 => 1,);
+        return array (  544 => 370,  534 => 369,  516 => 35,  502 => 656,  496 => 653,  492 => 652,  488 => 651,  484 => 650,  480 => 649,  476 => 648,  472 => 647,  468 => 646,  464 => 644,  462 => 369,  397 => 307,  371 => 284,  346 => 262,  307 => 226,  124 => 46,  112 => 36,  108 => 35,  102 => 32,  97 => 30,  93 => 29,  89 => 28,  85 => 27,  81 => 26,  77 => 25,  66 => 17,  61 => 15,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -864,7 +857,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 \t\t<meta charset=\"utf-8\">
 \t\t<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">
 
-\t\t<title>Dashboard - your dashboard</title>
+\t\t<title>Dashboard  Admin</title>
 \t\t<meta content=\"\" name=\"description\">
 \t\t<meta
 \t\tcontent=\"\" name=\"keywords\">
@@ -903,7 +896,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 
 \t\t\t\t\t<img src=\"{{ asset('assets/img/bank.png') }}\" alt=\"\">
 \t\t\t\t\t<span class=\"d-none d-lg-block\">
-\t\t\t\t\t\tE-bank  Dashboard</span>
+\t\t\t\t\t\tE-bank   Dashboard</span>
 \t\t\t\t</a>
 \t\t\t\t<i class=\"bi bi-list toggle-sidebar-btn\"></i>
 \t\t\t</div>
@@ -1141,7 +1134,7 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 \t\t<li class=\"nav-item\">
 \t\t\t<a class=\"nav-link \" href=\"{{ path('app_main') }}\">
 \t\t\t\t<i class=\"bi bi-grid\"></i>
-\t\t\t\t<span>Dashboard</span>
+\t\t\t\t<span> Admin Dashboard</span>
 \t\t\t</a>
 \t\t</li>
 \t\t<!-- End Dashboard Nav -->
@@ -1229,15 +1222,8 @@ class __TwigTemplate_05c4784e54957d6978be56c66839a175 extends Template
 \t<main id=\"main\" class=\"main\">
 
 \t\t<div class=\"pagetitle\">
-\t\t\t<h1>Dashboard</h1>
-\t\t\t<nav>
-\t\t\t\t<ol class=\"breadcrumb\">
-\t\t\t\t\t<li class=\"breadcrumb-item\">
-\t\t\t\t\t\t<a href=\"index.html\">Home</a>
-\t\t\t\t\t</li>
-\t\t\t\t\t<li class=\"breadcrumb-item active\">Dashboard</li>
-\t\t\t\t</ol>
-\t\t\t</nav>
+\t\t\t<h1> Admin  Dashboard</h1>
+\t\t\t
 \t\t</div>
 \t\t<!-- End Page Title -->
 
