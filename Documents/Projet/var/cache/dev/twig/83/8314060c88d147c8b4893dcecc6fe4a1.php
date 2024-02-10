@@ -388,7 +388,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 \t\t\t\t\t<a href=\"components-alerts.html\">
 \t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
 \t\t\t\t\t\t<span>
-\t\t\t\t\t\t\tComptes Courants</span>
+\t\t\t\t\t\t\t Comptes Courants de la banques</span>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t\t<li>
@@ -409,6 +409,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 \t\t\t<a class=\"nav-link collapsed\" data-bs-target=\"#forms-nav\" data-bs-toggle=\"collapse\" href=\"#\">
 \t\t\t\t<i class=\"bi bi-journal-text\"></i>
 \t\t\t\t<span>Les Virements</span>
+\t\t\t\t<i class=\"bi bi-chevron-down ms-auto\"></i>
 \t\t\t</a>
 
 \t\t</li>
@@ -458,47 +459,47 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 
 
 ";
-        // line 369
+        // line 370
         $this->displayBlock('main', $context, $blocks);
-        // line 644
+        // line 645
         echo "
 
 \t<script src=\"";
-        // line 646
+        // line 647
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/apexcharts/apexcharts.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 647
+        // line 648
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/bootstrap/js/bootstrap.bundle.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 648
+        // line 649
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/chart.js/chart.umd.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 649
+        // line 650
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/echarts/echarts.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 650
+        // line 651
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/quill/quill.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 651
+        // line 652
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/simple-datatables/simple-datatables.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 652
+        // line 653
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/tinymce/tinymce.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 653
+        // line 654
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/php-email-form/validate.js"), "html", null, true);
         echo "\"></script>
 
 \t<!-- Template Main JS File -->
 \t<script src=\"";
-        // line 656
+        // line 657
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/js/main.js"), "html", null, true);
         echo "\"></script>
 
@@ -530,7 +531,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 
     }
 
-    // line 369
+    // line 370
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -540,7 +541,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "main"));
 
-        // line 370
+        // line 371
         echo "
 \t<main id=\"main\" class=\"main\">
 
@@ -844,7 +845,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  544 => 370,  534 => 369,  516 => 35,  502 => 656,  496 => 653,  492 => 652,  488 => 651,  484 => 650,  480 => 649,  476 => 648,  472 => 647,  468 => 646,  464 => 644,  462 => 369,  397 => 307,  371 => 284,  346 => 262,  307 => 226,  124 => 46,  112 => 36,  108 => 35,  102 => 32,  97 => 30,  93 => 29,  89 => 28,  85 => 27,  81 => 26,  77 => 25,  66 => 17,  61 => 15,  45 => 1,);
+        return array (  545 => 371,  535 => 370,  517 => 35,  503 => 657,  497 => 654,  493 => 653,  489 => 652,  485 => 651,  481 => 650,  477 => 649,  473 => 648,  469 => 647,  465 => 645,  463 => 370,  397 => 307,  371 => 284,  346 => 262,  307 => 226,  124 => 46,  112 => 36,  108 => 35,  102 => 32,  97 => 30,  93 => 29,  89 => 28,  85 => 27,  81 => 26,  77 => 25,  66 => 17,  61 => 15,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -1151,7 +1152,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 \t\t\t\t\t<a href=\"components-alerts.html\">
 \t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
 \t\t\t\t\t\t<span>
-\t\t\t\t\t\t\tComptes Courants</span>
+\t\t\t\t\t\t\t Comptes Courants de la banques</span>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t\t<li>
@@ -1169,6 +1170,7 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 \t\t\t<a class=\"nav-link collapsed\" data-bs-target=\"#forms-nav\" data-bs-toggle=\"collapse\" href=\"#\">
 \t\t\t\t<i class=\"bi bi-journal-text\"></i>
 \t\t\t\t<span>Les Virements</span>
+\t\t\t\t<i class=\"bi bi-chevron-down ms-auto\"></i>
 \t\t\t</a>
 
 \t\t</li>

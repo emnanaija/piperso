@@ -190,7 +190,7 @@ class __TwigTemplate_dff23aad6247b58d9b7acf5debc45477 extends Template
                                             <p class=\"small mb-0\">Already have an account? <a
                                                     href=\"";
         // line 113
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_main");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_mainAdmin");
         echo "\">Log in</a></p>
                                         </div>
                                     </form>
@@ -381,7 +381,7 @@ class __TwigTemplate_dff23aad6247b58d9b7acf5debc45477 extends Template
                                         </div>
                                         <div class=\"col-12\">
                                             <p class=\"small mb-0\">Already have an account? <a
-                                                    href=\"{{ path('app_main') }}\">Log in</a></p>
+                                                    href=\"{{ path('app_mainAdmin') }}\">Log in</a></p>
                                         </div>
                                     </form>
 
