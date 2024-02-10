@@ -394,10 +394,10 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 \t\t\t\t<li>
 \t\t\t\t\t<a href=\"";
         // line 307
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_compteepargne");
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_compteepargneAdmin");
         echo "\">
 \t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
-\t\t\t\t\t\t<span>Comptes epargnes</span>
+\t\t\t\t\t\t<span>Comptes epargnes de la banque</span>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 
@@ -1155,9 +1155,9 @@ class __TwigTemplate_afc50e29291fd8322b9799728e0be1d6 extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t\t<li>
-\t\t\t\t\t<a href=\"{{path('app_compteepargne')}}\">
+\t\t\t\t\t<a href=\"{{path('app_compteepargneAdmin')}}\">
 \t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
-\t\t\t\t\t\t<span>Comptes epargnes</span>
+\t\t\t\t\t\t<span>Comptes epargnes de la banque</span>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 

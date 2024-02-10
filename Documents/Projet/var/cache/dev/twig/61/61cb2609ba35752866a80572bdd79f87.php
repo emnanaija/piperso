@@ -380,24 +380,18 @@ class __TwigTemplate_dbd77e684b06b6d8564656434d0ea0b9 extends Template
 \t\t\t<a class=\"nav-link collapsed\" data-bs-target=\"#components-nav\" data-bs-toggle=\"collapse\" href=\"#\">
 \t\t\t\t<i class=\"bi bi-menu-button-wide\"></i>
 \t\t\t\t<span>
-\t\t\t\t\tles Comptes banquaires</span>
+\t\t\t\t\tMes comptes </span>
 \t\t\t\t<i class=\"bi bi-chevron-down ms-auto\"></i>
 \t\t\t</a>
 \t\t\t<ul id=\"components-nav\" class=\"nav-content collapse \" data-bs-parent=\"#sidebar-nav\">
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"components-alerts.html\">
-\t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
-\t\t\t\t\t\t<span>
-\t\t\t\t\t\t\tComptes Courants</span>
-\t\t\t\t\t</a>
-\t\t\t\t</li>
+\t\t\t\t
 \t\t\t\t<li>
 \t\t\t\t\t<a href=\"";
-        // line 307
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_compteepargne");
+        // line 301
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_compteepargneclient");
         echo "\">
 \t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
-\t\t\t\t\t\t<span>Comptes epargnes</span>
+\t\t\t\t\t\t<span> Mes comptes Comptes epargnes</span>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 
@@ -458,47 +452,47 @@ class __TwigTemplate_dbd77e684b06b6d8564656434d0ea0b9 extends Template
 
 
 ";
-        // line 369
+        // line 363
         $this->displayBlock('main', $context, $blocks);
-        // line 386
+        // line 380
         echo "
 
 \t<script src=\"";
-        // line 388
+        // line 382
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/apexcharts/apexcharts.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 389
+        // line 383
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/bootstrap/js/bootstrap.bundle.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 390
+        // line 384
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/chart.js/chart.umd.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 391
+        // line 385
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/echarts/echarts.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 392
+        // line 386
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/quill/quill.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 393
+        // line 387
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/simple-datatables/simple-datatables.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 394
+        // line 388
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/tinymce/tinymce.min.js"), "html", null, true);
         echo "\"></script>
 \t<script src=\"";
-        // line 395
+        // line 389
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/vendor/php-email-form/validate.js"), "html", null, true);
         echo "\"></script>
 
 \t<!-- Template Main JS File -->
 \t<script src=\"";
-        // line 398
+        // line 392
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/js/main.js"), "html", null, true);
         echo "\"></script>
 
@@ -530,7 +524,7 @@ class __TwigTemplate_dbd77e684b06b6d8564656434d0ea0b9 extends Template
 
     }
 
-    // line 369
+    // line 363
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -540,7 +534,7 @@ class __TwigTemplate_dbd77e684b06b6d8564656434d0ea0b9 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "main"));
 
-        // line 370
+        // line 364
         echo "
 \t<main id=\"main\" class=\"main\">
 
@@ -586,7 +580,7 @@ class __TwigTemplate_dbd77e684b06b6d8564656434d0ea0b9 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  544 => 370,  534 => 369,  516 => 35,  502 => 398,  496 => 395,  492 => 394,  488 => 393,  484 => 392,  480 => 391,  476 => 390,  472 => 389,  468 => 388,  464 => 386,  462 => 369,  397 => 307,  371 => 284,  346 => 262,  307 => 226,  124 => 46,  112 => 36,  108 => 35,  102 => 32,  97 => 30,  93 => 29,  89 => 28,  85 => 27,  81 => 26,  77 => 25,  66 => 17,  61 => 15,  45 => 1,);
+        return array (  538 => 364,  528 => 363,  510 => 35,  496 => 392,  490 => 389,  486 => 388,  482 => 387,  478 => 386,  474 => 385,  470 => 384,  466 => 383,  462 => 382,  458 => 380,  456 => 363,  391 => 301,  371 => 284,  346 => 262,  307 => 226,  124 => 46,  112 => 36,  108 => 35,  102 => 32,  97 => 30,  93 => 29,  89 => 28,  85 => 27,  81 => 26,  77 => 25,  66 => 17,  61 => 15,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -885,21 +879,15 @@ class __TwigTemplate_dbd77e684b06b6d8564656434d0ea0b9 extends Template
 \t\t\t<a class=\"nav-link collapsed\" data-bs-target=\"#components-nav\" data-bs-toggle=\"collapse\" href=\"#\">
 \t\t\t\t<i class=\"bi bi-menu-button-wide\"></i>
 \t\t\t\t<span>
-\t\t\t\t\tles Comptes banquaires</span>
+\t\t\t\t\tMes comptes </span>
 \t\t\t\t<i class=\"bi bi-chevron-down ms-auto\"></i>
 \t\t\t</a>
 \t\t\t<ul id=\"components-nav\" class=\"nav-content collapse \" data-bs-parent=\"#sidebar-nav\">
+\t\t\t\t
 \t\t\t\t<li>
-\t\t\t\t\t<a href=\"components-alerts.html\">
+\t\t\t\t\t<a href=\"{{path('app_compteepargneclient')}}\">
 \t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
-\t\t\t\t\t\t<span>
-\t\t\t\t\t\t\tComptes Courants</span>
-\t\t\t\t\t</a>
-\t\t\t\t</li>
-\t\t\t\t<li>
-\t\t\t\t\t<a href=\"{{path('app_compteepargne')}}\">
-\t\t\t\t\t\t<i class=\"bi bi-circle\"></i>
-\t\t\t\t\t\t<span>Comptes epargnes</span>
+\t\t\t\t\t\t<span> Mes comptes Comptes epargnes</span>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 
